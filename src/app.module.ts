@@ -7,7 +7,7 @@ import { ProjectsModule } from './projects/projects.module'
 import { SettingsModule } from './settings/settings.module'
 import { SkillsModule } from './skills/skills.module'
 import { ExperienceModule } from './experience/experience.module'
-
+import { MessagesModule } from './messages/messages.module'
 
 
 @Module({
@@ -21,6 +21,7 @@ import { ExperienceModule } from './experience/experience.module'
     SettingsModule,
     SkillsModule,
     ExperienceModule,
+    MessagesModule
   ],
 })
 export class AppModule {}
